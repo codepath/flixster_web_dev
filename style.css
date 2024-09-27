@@ -1,1 +1,96 @@
-
+h1 {
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 40rem;
+  }
+  
+  body {
+    background-color: rgb(129, 130, 131);
+    color: #171717;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-color: #363636;
+    display: flex;
+  }
+  
+  h2 {
+    text-align: center;
+    color: black;
+  }
+  
+  #movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  
+  }
+  
+  #searchmovies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  
+  }
+  
+  div.movie-item>img {
+    width: 300px;
+    height: 450px;
+    border: 1px solid rgb(240, 217, 11);
+    margin: 0px 5px 5px 5px;
+  }
+  
+  #loadmore {
+    /*display: inline-block;*/
+    background-color: black;
+    border: 4px double black;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    /*border-radius: 20px;*/
+  }
+  
+  #buttonDiv {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search {
+    text-align: center;
+  
+  }
+  
+  .search:focus {
+    background-color: #050505;
+    outline: none;
+  }
+  
+  input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0 20px;
+    box-sizing: border-box;
+    border: 2px solid #555;
+  }
+  
+  input[type=text]:focus {
+    background-color: lightyellow;
+  }
+  
+  #exit_button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+  }
+  
+  newdiv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+  }
+  
